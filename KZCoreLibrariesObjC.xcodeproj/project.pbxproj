@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		709B76121CB9A103003E73D3 /* KZCoreLibrariesObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 709B76111CB9A103003E73D3 /* KZCoreLibrariesObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		709B76211CB9A11C003E73D3 /* KZColorUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 709B76191CB9A11C003E73D3 /* KZColorUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		709B76221CB9A11C003E73D3 /* KZColorUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B761A1CB9A11C003E73D3 /* KZColorUtilities.m */; };
+		709B76231CB9A11C003E73D3 /* KZDateUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 709B761B1CB9A11C003E73D3 /* KZDateUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		709B76241CB9A11C003E73D3 /* KZDateUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B761C1CB9A11C003E73D3 /* KZDateUtilities.m */; };
+		709B76251CB9A11C003E73D3 /* KZStringUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 709B761D1CB9A11C003E73D3 /* KZStringUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		709B76261CB9A11C003E73D3 /* KZStringUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B761E1CB9A11C003E73D3 /* KZStringUtilities.m */; };
+		709B76271CB9A11C003E73D3 /* KZImageUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 709B761F1CB9A11C003E73D3 /* KZImageUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		709B76281CB9A11C003E73D3 /* KZImageUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B76201CB9A11C003E73D3 /* KZImageUtilities.m */; };
+		709B762A1CB9A12F003E73D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709B76291CB9A12F003E73D3 /* Images.xcassets */; };
+		709B762E1CB9A160003E73D3 /* ActivitiesUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 709B762C1CB9A160003E73D3 /* ActivitiesUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		709B762F1CB9A160003E73D3 /* ActivitiesUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B762D1CB9A160003E73D3 /* ActivitiesUtilities.m */; };
+		709B76341CB9A174003E73D3 /* Chrome-AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 709B76311CB9A174003E73D3 /* Chrome-AppIcon.png */; };
+		709B76351CB9A174003E73D3 /* Chrome-AppIcon@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 709B76321CB9A174003E73D3 /* Chrome-AppIcon@x2.png */; };
+		709B76361CB9A174003E73D3 /* Chrome-AppIcon@x3.png in Resources */ = {isa = PBXBuildFile; fileRef = 709B76331CB9A174003E73D3 /* Chrome-AppIcon@x3.png */; };
+		709B763D1CB9A192003E73D3 /* FaceTime-AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 709B76381CB9A192003E73D3 /* FaceTime-AppIcon.png */; };
+		709B763E1CB9A192003E73D3 /* FaceTime-AppIcon@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 709B76391CB9A192003E73D3 /* FaceTime-AppIcon@x2.png */; };
+		709B763F1CB9A192003E73D3 /* FaceTime-AppIcon@x3.png in Resources */ = {isa = PBXBuildFile; fileRef = 709B763A1CB9A192003E73D3 /* FaceTime-AppIcon@x3.png */; };
+		709B76401CB9A192003E73D3 /* FaceTimeActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 709B763B1CB9A192003E73D3 /* FaceTimeActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		709B76411CB9A192003E73D3 /* FaceTimeActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B763C1CB9A192003E73D3 /* FaceTimeActivity.m */; };
+		709B76481CB9A1A4003E73D3 /* GMailActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 709B76431CB9A1A4003E73D3 /* GMailActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		709B76491CB9A1A4003E73D3 /* GMailActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B76441CB9A1A4003E73D3 /* GMailActivity.m */; };
+		709B764A1CB9A1A4003E73D3 /* GMailAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 709B76451CB9A1A4003E73D3 /* GMailAppIcon.png */; };
+		709B764B1CB9A1A4003E73D3 /* GMailAppIcon@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 709B76461CB9A1A4003E73D3 /* GMailAppIcon@x2.png */; };
+		709B764C1CB9A1A4003E73D3 /* GMailAppIcon@x3.png in Resources */ = {isa = PBXBuildFile; fileRef = 709B76471CB9A1A4003E73D3 /* GMailAppIcon@x3.png */; };
+		709B76531CB9A1CB003E73D3 /* GoogleInboxActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 709B764E1CB9A1CB003E73D3 /* GoogleInboxActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		709B76541CB9A1CB003E73D3 /* GoogleInboxActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B764F1CB9A1CB003E73D3 /* GoogleInboxActivity.m */; };
+		709B76551CB9A1CB003E73D3 /* GoogleInboxAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 709B76501CB9A1CB003E73D3 /* GoogleInboxAppIcon.png */; };
+		709B76561CB9A1CB003E73D3 /* GoogleInboxAppIcon@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 709B76511CB9A1CB003E73D3 /* GoogleInboxAppIcon@x2.png */; };
+		709B76571CB9A1CB003E73D3 /* GoogleInboxAppIcon@x3.png in Resources */ = {isa = PBXBuildFile; fileRef = 709B76521CB9A1CB003E73D3 /* GoogleInboxAppIcon@x3.png */; };
+		709B765E1CB9A1E1003E73D3 /* Phone-AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 709B76591CB9A1E1003E73D3 /* Phone-AppIcon.png */; };
+		709B765F1CB9A1E1003E73D3 /* Phone-AppIcon@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 709B765A1CB9A1E1003E73D3 /* Phone-AppIcon@x2.png */; };
+		709B76601CB9A1E1003E73D3 /* Phone-AppIcon@x3.png in Resources */ = {isa = PBXBuildFile; fileRef = 709B765B1CB9A1E1003E73D3 /* Phone-AppIcon@x3.png */; };
+		709B76611CB9A1E1003E73D3 /* PhoneActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 709B765C1CB9A1E1003E73D3 /* PhoneActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		709B76621CB9A1E1003E73D3 /* PhoneActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B765D1CB9A1E1003E73D3 /* PhoneActivity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		709B760E1CB9A103003E73D3 /* KZCoreLibrariesObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KZCoreLibrariesObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		709B76111CB9A103003E73D3 /* KZCoreLibrariesObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZCoreLibrariesObjC.h; sourceTree = "<group>"; };
+		709B76131CB9A103003E73D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709B76191CB9A11C003E73D3 /* KZColorUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorUtilities.h; sourceTree = "<group>"; };
+		709B761A1CB9A11C003E73D3 /* KZColorUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorUtilities.m; sourceTree = "<group>"; };
+		709B761B1CB9A11C003E73D3 /* KZDateUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZDateUtilities.h; sourceTree = "<group>"; };
+		709B761C1CB9A11C003E73D3 /* KZDateUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZDateUtilities.m; sourceTree = "<group>"; };
+		709B761D1CB9A11C003E73D3 /* KZStringUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZStringUtilities.h; sourceTree = "<group>"; };
+		709B761E1CB9A11C003E73D3 /* KZStringUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZStringUtilities.m; sourceTree = "<group>"; };
+		709B761F1CB9A11C003E73D3 /* KZImageUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZImageUtilities.h; sourceTree = "<group>"; };
+		709B76201CB9A11C003E73D3 /* KZImageUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZImageUtilities.m; sourceTree = "<group>"; };
+		709B76291CB9A12F003E73D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		709B762C1CB9A160003E73D3 /* ActivitiesUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivitiesUtilities.h; sourceTree = "<group>"; };
+		709B762D1CB9A160003E73D3 /* ActivitiesUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivitiesUtilities.m; sourceTree = "<group>"; };
+		709B76311CB9A174003E73D3 /* Chrome-AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrome-AppIcon.png"; sourceTree = "<group>"; };
+		709B76321CB9A174003E73D3 /* Chrome-AppIcon@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrome-AppIcon@x2.png"; sourceTree = "<group>"; };
+		709B76331CB9A174003E73D3 /* Chrome-AppIcon@x3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrome-AppIcon@x3.png"; sourceTree = "<group>"; };
+		709B76381CB9A192003E73D3 /* FaceTime-AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FaceTime-AppIcon.png"; sourceTree = "<group>"; };
+		709B76391CB9A192003E73D3 /* FaceTime-AppIcon@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FaceTime-AppIcon@x2.png"; sourceTree = "<group>"; };
+		709B763A1CB9A192003E73D3 /* FaceTime-AppIcon@x3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FaceTime-AppIcon@x3.png"; sourceTree = "<group>"; };
+		709B763B1CB9A192003E73D3 /* FaceTimeActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceTimeActivity.h; sourceTree = "<group>"; };
+		709B763C1CB9A192003E73D3 /* FaceTimeActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceTimeActivity.m; sourceTree = "<group>"; };
+		709B76431CB9A1A4003E73D3 /* GMailActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMailActivity.h; sourceTree = "<group>"; };
+		709B76441CB9A1A4003E73D3 /* GMailActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMailActivity.m; sourceTree = "<group>"; };
+		709B76451CB9A1A4003E73D3 /* GMailAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GMailAppIcon.png; sourceTree = "<group>"; };
+		709B76461CB9A1A4003E73D3 /* GMailAppIcon@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GMailAppIcon@x2.png"; sourceTree = "<group>"; };
+		709B76471CB9A1A4003E73D3 /* GMailAppIcon@x3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GMailAppIcon@x3.png"; sourceTree = "<group>"; };
+		709B764E1CB9A1CB003E73D3 /* GoogleInboxActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleInboxActivity.h; sourceTree = "<group>"; };
+		709B764F1CB9A1CB003E73D3 /* GoogleInboxActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleInboxActivity.m; sourceTree = "<group>"; };
+		709B76501CB9A1CB003E73D3 /* GoogleInboxAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoogleInboxAppIcon.png; sourceTree = "<group>"; };
+		709B76511CB9A1CB003E73D3 /* GoogleInboxAppIcon@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GoogleInboxAppIcon@x2.png"; sourceTree = "<group>"; };
+		709B76521CB9A1CB003E73D3 /* GoogleInboxAppIcon@x3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GoogleInboxAppIcon@x3.png"; sourceTree = "<group>"; };
+		709B76591CB9A1E1003E73D3 /* Phone-AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Phone-AppIcon.png"; sourceTree = "<group>"; };
+		709B765A1CB9A1E1003E73D3 /* Phone-AppIcon@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Phone-AppIcon@x2.png"; sourceTree = "<group>"; };
+		709B765B1CB9A1E1003E73D3 /* Phone-AppIcon@x3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Phone-AppIcon@x3.png"; sourceTree = "<group>"; };
+		709B765C1CB9A1E1003E73D3 /* PhoneActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneActivity.h; sourceTree = "<group>"; };
+		709B765D1CB9A1E1003E73D3 /* PhoneActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneActivity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		709B760A1CB9A103003E73D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		709B76041CB9A103003E73D3 = {
+			isa = PBXGroup;
+			children = (
+				709B76101CB9A103003E73D3 /* KZCoreLibrariesObjC */,
+				709B760F1CB9A103003E73D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		709B760F1CB9A103003E73D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				709B760E1CB9A103003E73D3 /* KZCoreLibrariesObjC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		709B76101CB9A103003E73D3 /* KZCoreLibrariesObjC */ = {
+			isa = PBXGroup;
+			children = (
+				709B762B1CB9A14A003E73D3 /* Activities */,
+				709B76291CB9A12F003E73D3 /* Images.xcassets */,
+				709B76131CB9A103003E73D3 /* Info.plist */,
+				709B76191CB9A11C003E73D3 /* KZColorUtilities.h */,
+				709B761A1CB9A11C003E73D3 /* KZColorUtilities.m */,
+				709B76111CB9A103003E73D3 /* KZCoreLibrariesObjC.h */,
+				709B761B1CB9A11C003E73D3 /* KZDateUtilities.h */,
+				709B761C1CB9A11C003E73D3 /* KZDateUtilities.m */,
+				709B761F1CB9A11C003E73D3 /* KZImageUtilities.h */,
+				709B76201CB9A11C003E73D3 /* KZImageUtilities.m */,
+				709B761D1CB9A11C003E73D3 /* KZStringUtilities.h */,
+				709B761E1CB9A11C003E73D3 /* KZStringUtilities.m */,
+			);
+			path = KZCoreLibrariesObjC;
+			sourceTree = "<group>";
+		};
+		709B762B1CB9A14A003E73D3 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				709B76581CB9A1D2003E73D3 /* Phone */,
+				709B764D1CB9A1AC003E73D3 /* GoogleInbox */,
+				709B76421CB9A198003E73D3 /* GMail */,
+				709B76371CB9A186003E73D3 /* FaceTime */,
+				709B76301CB9A165003E73D3 /* Chrome */,
+				709B762C1CB9A160003E73D3 /* ActivitiesUtilities.h */,
+				709B762D1CB9A160003E73D3 /* ActivitiesUtilities.m */,
+			);
+			name = Activities;
+			sourceTree = "<group>";
+		};
+		709B76301CB9A165003E73D3 /* Chrome */ = {
+			isa = PBXGroup;
+			children = (
+				709B76311CB9A174003E73D3 /* Chrome-AppIcon.png */,
+				709B76321CB9A174003E73D3 /* Chrome-AppIcon@x2.png */,
+				709B76331CB9A174003E73D3 /* Chrome-AppIcon@x3.png */,
+			);
+			name = Chrome;
+			sourceTree = "<group>";
+		};
+		709B76371CB9A186003E73D3 /* FaceTime */ = {
+			isa = PBXGroup;
+			children = (
+				709B76381CB9A192003E73D3 /* FaceTime-AppIcon.png */,
+				709B76391CB9A192003E73D3 /* FaceTime-AppIcon@x2.png */,
+				709B763A1CB9A192003E73D3 /* FaceTime-AppIcon@x3.png */,
+				709B763B1CB9A192003E73D3 /* FaceTimeActivity.h */,
+				709B763C1CB9A192003E73D3 /* FaceTimeActivity.m */,
+			);
+			name = FaceTime;
+			sourceTree = "<group>";
+		};
+		709B76421CB9A198003E73D3 /* GMail */ = {
+			isa = PBXGroup;
+			children = (
+				709B76431CB9A1A4003E73D3 /* GMailActivity.h */,
+				709B76441CB9A1A4003E73D3 /* GMailActivity.m */,
+				709B76451CB9A1A4003E73D3 /* GMailAppIcon.png */,
+				709B76461CB9A1A4003E73D3 /* GMailAppIcon@x2.png */,
+				709B76471CB9A1A4003E73D3 /* GMailAppIcon@x3.png */,
+			);
+			name = GMail;
+			sourceTree = "<group>";
+		};
+		709B764D1CB9A1AC003E73D3 /* GoogleInbox */ = {
+			isa = PBXGroup;
+			children = (
+				709B764E1CB9A1CB003E73D3 /* GoogleInboxActivity.h */,
+				709B764F1CB9A1CB003E73D3 /* GoogleInboxActivity.m */,
+				709B76501CB9A1CB003E73D3 /* GoogleInboxAppIcon.png */,
+				709B76511CB9A1CB003E73D3 /* GoogleInboxAppIcon@x2.png */,
+				709B76521CB9A1CB003E73D3 /* GoogleInboxAppIcon@x3.png */,
+			);
+			name = GoogleInbox;
+			sourceTree = "<group>";
+		};
+		709B76581CB9A1D2003E73D3 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				709B76591CB9A1E1003E73D3 /* Phone-AppIcon.png */,
+				709B765A1CB9A1E1003E73D3 /* Phone-AppIcon@x2.png */,
+				709B765B1CB9A1E1003E73D3 /* Phone-AppIcon@x3.png */,
+				709B765C1CB9A1E1003E73D3 /* PhoneActivity.h */,
+				709B765D1CB9A1E1003E73D3 /* PhoneActivity.m */,
+			);
+			name = Phone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		709B760B1CB9A103003E73D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709B76611CB9A1E1003E73D3 /* PhoneActivity.h in Headers */,
+				709B76271CB9A11C003E73D3 /* KZImageUtilities.h in Headers */,
+				709B76211CB9A11C003E73D3 /* KZColorUtilities.h in Headers */,
+				709B76251CB9A11C003E73D3 /* KZStringUtilities.h in Headers */,
+				709B76531CB9A1CB003E73D3 /* GoogleInboxActivity.h in Headers */,
+				709B76231CB9A11C003E73D3 /* KZDateUtilities.h in Headers */,
+				709B76481CB9A1A4003E73D3 /* GMailActivity.h in Headers */,
+				709B762E1CB9A160003E73D3 /* ActivitiesUtilities.h in Headers */,
+				709B76121CB9A103003E73D3 /* KZCoreLibrariesObjC.h in Headers */,
+				709B76401CB9A192003E73D3 /* FaceTimeActivity.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		709B760D1CB9A103003E73D3 /* KZCoreLibrariesObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709B76161CB9A103003E73D3 /* Build configuration list for PBXNativeTarget "KZCoreLibrariesObjC" */;
+			buildPhases = (
+				709B76091CB9A103003E73D3 /* Sources */,
+				709B760A1CB9A103003E73D3 /* Frameworks */,
+				709B760B1CB9A103003E73D3 /* Headers */,
+				709B760C1CB9A103003E73D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZCoreLibrariesObjC;
+			productName = KZCoreLibrariesObjC;
+			productReference = 709B760E1CB9A103003E73D3 /* KZCoreLibrariesObjC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		709B76051CB9A103003E73D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KaiZen;
+				TargetAttributes = {
+					709B760D1CB9A103003E73D3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 709B76081CB9A103003E73D3 /* Build configuration list for PBXProject "KZCoreLibrariesObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 709B76041CB9A103003E73D3;
+			productRefGroup = 709B760F1CB9A103003E73D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				709B760D1CB9A103003E73D3 /* KZCoreLibrariesObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		709B760C1CB9A103003E73D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709B76361CB9A174003E73D3 /* Chrome-AppIcon@x3.png in Resources */,
+				709B76561CB9A1CB003E73D3 /* GoogleInboxAppIcon@x2.png in Resources */,
+				709B764C1CB9A1A4003E73D3 /* GMailAppIcon@x3.png in Resources */,
+				709B76601CB9A1E1003E73D3 /* Phone-AppIcon@x3.png in Resources */,
+				709B76571CB9A1CB003E73D3 /* GoogleInboxAppIcon@x3.png in Resources */,
+				709B763E1CB9A192003E73D3 /* FaceTime-AppIcon@x2.png in Resources */,
+				709B763D1CB9A192003E73D3 /* FaceTime-AppIcon.png in Resources */,
+				709B763F1CB9A192003E73D3 /* FaceTime-AppIcon@x3.png in Resources */,
+				709B76341CB9A174003E73D3 /* Chrome-AppIcon.png in Resources */,
+				709B76351CB9A174003E73D3 /* Chrome-AppIcon@x2.png in Resources */,
+				709B762A1CB9A12F003E73D3 /* Images.xcassets in Resources */,
+				709B76551CB9A1CB003E73D3 /* GoogleInboxAppIcon.png in Resources */,
+				709B765F1CB9A1E1003E73D3 /* Phone-AppIcon@x2.png in Resources */,
+				709B765E1CB9A1E1003E73D3 /* Phone-AppIcon.png in Resources */,
+				709B764A1CB9A1A4003E73D3 /* GMailAppIcon.png in Resources */,
+				709B764B1CB9A1A4003E73D3 /* GMailAppIcon@x2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		709B76091CB9A103003E73D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709B76411CB9A192003E73D3 /* FaceTimeActivity.m in Sources */,
+				709B76491CB9A1A4003E73D3 /* GMailActivity.m in Sources */,
+				709B76541CB9A1CB003E73D3 /* GoogleInboxActivity.m in Sources */,
+				709B76621CB9A1E1003E73D3 /* PhoneActivity.m in Sources */,
+				709B76221CB9A11C003E73D3 /* KZColorUtilities.m in Sources */,
+				709B76281CB9A11C003E73D3 /* KZImageUtilities.m in Sources */,
+				709B76261CB9A11C003E73D3 /* KZStringUtilities.m in Sources */,
+				709B762F1CB9A160003E73D3 /* ActivitiesUtilities.m in Sources */,
+				709B76241CB9A11C003E73D3 /* KZDateUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		709B76141CB9A103003E73D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		709B76151CB9A103003E73D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		709B76171CB9A103003E73D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KZCoreLibrariesObjC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.kaizen.KZCoreLibrariesObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		709B76181CB9A103003E73D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KZCoreLibrariesObjC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.kaizen.KZCoreLibrariesObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		709B76081CB9A103003E73D3 /* Build configuration list for PBXProject "KZCoreLibrariesObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709B76141CB9A103003E73D3 /* Debug */,
+				709B76151CB9A103003E73D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		709B76161CB9A103003E73D3 /* Build configuration list for PBXNativeTarget "KZCoreLibrariesObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709B76171CB9A103003E73D3 /* Debug */,
+				709B76181CB9A103003E73D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 709B76051CB9A103003E73D3 /* Project object */;
+}
